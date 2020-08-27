@@ -1,0 +1,106 @@
+    1  genomics20
+    2  passwd
+    3  exit
+    4  ls
+    5  mkdir dzy
+    6  ls
+    7  cd dzy
+    8  exit
+    9  ls
+   10  mkdir saozhu
+   11  ls
+   12  rm dzy
+   13  rmdir dzy
+   14  ls
+   15  exit
+   16  rmdir saozhu
+   17  ls
+   18  mkdir bin
+   19  mkdir scripts
+   20  mkdir projects
+   21  ls
+   22  exit
+   23  mkdir saozhu
+   24  ls
+   25  rmdir saozhu
+   26  ls
+   27  exit
+   28  ls
+   29  lls
+   30  ls -a
+   31  bin       scripts
+   32  ..  .bash_logout   .bashrc        projects
+   33  ls -a
+   34  exit
+   35  ls
+   36  exit
+   37  cat /etc/*release | head -1
+   38  FILE="bin"; [ -d "$FILE" ] && echo "$FILE" | md5sum || echo "None" | md5sum | cut -f1
+   39  ls
+   40  exit
+   41  ls
+   42  cd assignments/trgn_assignment1
+   43  echo "#trgn510_assignment1" >> README.md
+   44  git init
+   45  git add README.md
+   46  git commit -m "first commit"
+   47  git remote add origin https://github.com/davcraig75/trgn510_assignment1.git
+   48  git push -u origin master
+   49  git config --global user.email "dongzyluck@126.com“
+
+"
+   50  git config --global user.email "dongzyluck@126.com“
+"
+   51  git config --global user.email "zeyuando@usc.edu“
+'
+"
+   52  git config --global user.email zeyuando@usc.edu“
+   53  git config --global user.email dongzyluck@126.com“
+   54    git config --global user.name "zeyuandong"
+   55  git commit -m "first commit"
+   56  git remote add origin https://github.com/davcraig75/trgn510_assignment1.git
+   57  git push -u origin master
+   58  ls
+   59  cat README.md
+   60  git init
+   61  ls .al
+   62  ls -al
+   63  cd .git
+   64  ls
+   65  ls -al
+   66  cd info
+   67  ls
+   68  ls -al
+   69  cd ../..
+   70  ls
+   71  ls -al
+   72  rm .git
+   73  rm -r .git
+   74  ls
+   75  ls -al
+   76  git init
+   77  git add README.md
+   78  git commit -m "first commit"
+   79  git remote add origin https://github.com/zeyuandong/trgn510_assignment1.git
+   80  git push -u origin master
+   81  mkdir ddd
+   82  cd ddd
+   83  ls -al
+   84  pwd
+   85  cd ..
+   86  rm ddd
+   87  rm -r ddd
+   88  ls
+   89  ls -a
+   90  ls -al
+   91  vi README.md
+   92  cat README.md
+   93  git add . -A
+   94  git commit -m "First commit"
+   95  git push origin master
+   96  pwd
+   97  mkdir problem1
+   98  ls
+   99  history
+  100  cd problem1
+  101  history > myhistory.txt
