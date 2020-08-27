@@ -1,0 +1,79 @@
+    1  ls
+    2  ls -al
+    3  rm .git
+    4  rm -r .git
+    5  ls
+    6  ls -al
+    7  git init
+    8  git add README.md
+    9  git commit -m "first commit"
+   10  git remote add origin https://github.com/zeyuandong/trgn510_assignment1.git
+   11  git push -u origin master
+   12  mkdir ddd
+   13  cd ddd
+   14  ls -al
+   15  pwd
+   16  cd ..
+   17  rm ddd
+   18  rm -r ddd
+   19  ls
+   20  ls -a
+   21  ls -al
+   22  vi README.md
+   23  cat README.md
+   24  git add . -A
+   25  git commit -m "First commit"
+   26  git push origin master
+   27  pwd
+   28  mkdir problem1
+   29  ls
+   30  history
+   31  cd problem1
+   32  history > myhistory.txt
+   33  ls -al
+   34  cat myhistory.txt
+   35  ..
+   36  cd ~/assignments/trgn_assignment1
+   37  mkdir problem2
+   38  cp /data/bashrc
+   39  cp /data/bashrc ~/assignments/trgn_assignment1/problem2/.
+   40  ls -al
+   41  cd problem2/.
+   42  ls -la
+   43  vi bashrc
+   44  cat /etc/*release
+   45  cat /etc/*release | head
+   46  cat /etc/*release | head -1
+   47  vi bashrc
+   48  source ~/assignments/trgn_assignment1/problem2/bashrc
+   49  cp ~/assignments/trgn_assignment1/problem2/bashrc ~/.bashrc
+   50  exit
+   51  cp /home/data/vimrc ~/assignments/trgn_assignment1/problem2/
+   52  cd problem2
+   53  cd /home/data/vimrc ~/assignments/trgn_assignment1/problem2/
+   54  cd  ~/assignments/trgn_assignment1/problem2/
+   55  ls -la
+   56  vi vimrc
+   57  cp vimrc ~/.vimrc.
+   58  vi vimrc
+   59  cp vimrc ~/.vimrc.
+   60  vi vimrc
+   61  ..
+   62  cd ..
+   63  mkdir problem 3
+   64  ls -al
+   65  rm 3
+   66  rm -r 3
+   67  ls -al
+   68  rm -r problem
+   69  ls -al
+   70  mkdir problem\ 3
+   71  ls -al
+   72  cd ~/assignments/trgn_assignment1/problem/
+   73  cd ..
+   74  cd problem 3
+   75  cd problem\ 3
+   76  cd ..
+   77  cd problem\ 3
+   78  history > My History.txt
+   79  history > My\ History.txt

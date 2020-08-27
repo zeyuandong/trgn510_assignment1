@@ -1,0 +1,5 @@
+root      10449   2718  0 15:12 ?        00:00:00 sshd: zeyuando [priv]
+zeyuando  10484  10449  0 15:13 ?        00:00:00 sshd: zeyuando@pts/1
+zeyuando  10485  10484  0 15:13 pts/1    00:00:00 -bash
+zeyuando  13257  10485  0 15:51 pts/1    00:00:00 ps -ef
+zeyuando  13258  10485  0 15:51 pts/1    00:00:00 grep --color=auto zeyuando
